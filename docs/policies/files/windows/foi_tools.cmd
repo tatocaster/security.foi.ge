@@ -51,9 +51,9 @@ echo TPM-is shemowmeba...
 powershell -ExecutionPolicy Bypass -Command "$tpm = Get-Tpm; exit ([int]($tpm.TpmPresent -and $tpm.TpmEnabled))"
 set /a TPM_AVAILABLE=%ERRORLEVEL%
 if "%TPM_AVAILABLE%"=="0" (
-    echo TPM ar aris xelmisawvdomi an gaaktiurebuli!
-    echo Aucilebelia TPM 2.0-is arseboba da gaaqtiureba.
-    echo Gaaaqtiuret TPM BIOS-is parametrebshi da scadet xelaxla.
+    echo [ERROR] TPM ar aris xelmisawvdomi an gaaktiurebuli!
+    echo [ERROR] Aucilebelia TPM 2.0-is arseboba da gaaqtiureba.
+    echo [ERROR] Gaaaqtiuret TPM BIOS-is parametrebshi da scadet xelaxla.
     pause
     exit /b 1
 )
@@ -68,7 +68,7 @@ set /a PIN_SETUP=%ERRORLEVEL%
 if "%PIN_SETUP%"=="0" (
     echo [ERROR] Windows PIN kodi ar aris dayenebuli.
     echo [ERROR] Daayenet PIN kodi Windows-is parametrebshi.
-    echo [ERROR] PIN kodis dasayeneblad: Settings ^> Accounts ^> Sign-in options ^> PIN ^> Add
+    echo [ERROR] PIN kodis dasayeneblad: Settings ^> Accounts ^> Sign-in options ^> PIN ^(Windows Hello^) ^> Set Up
     pause
     exit /b 1
 )
@@ -84,7 +84,19 @@ if errorlevel 1 goto MainMenu
 
 echo Mimdinareobs PIN kodit shesvlis idzulebis aqtivacia...
 powershell -ExecutionPolicy Bypass -Command "Set-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{60b78e88-ead8-445c-9cfd-0b87f74ea6cd}' -Name 'Disabled' -Value '1'"
+if errorlevel 1 (
+    echo [ERROR] PIN kodit shesvlis idzulebis gaaqtiurebisas moxda shecdoma
+    pause
+    goto MainMenu
+)
+
 powershell -ExecutionPolicy Bypass -Command "Set-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{60b78e88-ead8-445c-9cfd-0b87f74ea6cd}\LogonPasswordReset' -Name 'Disabled' -Value '1'"
+if errorlevel 1 (
+    echo [ERROR] PIN kodit shesvlis idzulebis gaaqtiurebisas moxda shecdoma
+    pause
+    goto MainMenu
+)
+
 echo [OK] PIN kodit shesvlis idzuleba gaaqtiurebulia.
 pause
 goto MainMenu
@@ -93,7 +105,19 @@ goto MainMenu
 cls
 echo Mimdinareobs PIN kodit shesvlis idzulebis gauqmeba...
 powershell -ExecutionPolicy Bypass -Command "Set-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{60b78e88-ead8-445c-9cfd-0b87f74ea6cd}' -Name 'Disabled' -Value '0'"
+if errorlevel 1 (
+    echo [ERROR] PIN kodit shesvlis idzulebis gauqmebisas moxda shecdoma
+    pause
+    goto MainMenu
+)
+
 powershell -ExecutionPolicy Bypass -Command "Set-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{60b78e88-ead8-445c-9cfd-0b87f74ea6cd}\LogonPasswordReset' -Name 'Disabled' -Value '0'"
+if errorlevel 1 (
+    echo [ERROR] PIN kodit shesvlis idzulebis gauqmebisas moxda shecdoma
+    pause
+    goto MainMenu
+)
+
 echo [OK] PIN kodit shesvlis idzuleba gauqmebulia.
 pause
 goto MainMenu
@@ -102,7 +126,21 @@ goto MainMenu
 cls
 echo Mimdinareobs titis anabechdis drois shezgudvis idzuleba...
 schtasks /create /tn "FOIPinEnforcementEnable" /xml "%ScriptDir%\tasks\FOIPinEnforcementEnable.xml" /f
+if errorlevel 1 (
+    echo [ERROR] Titis anabechdis drois shezgudvis gaaqtiurebisas moxda shecdoma
+    pause
+    goto MainMenu
+)
+
 schtasks /create /tn "FOIPinEnforcementDisable" /xml "%ScriptDir%\tasks\FOIPinEnforcementDisable.xml" /f
+if errorlevel 1 (
+    echo [ERROR] Titis anabechdis drois shezgudvis gaaqtiurebisas moxda shecdoma
+    schtasks /delete /tn "FOIPinEnforcementEnable" /f >nul 2>&1
+    pause
+    goto MainMenu
+)
+
+echo [OK] Titis anabechdis drois shezgudva gaaqtiurebulia.
 pause
 goto MainMenu
 
@@ -110,7 +148,20 @@ goto MainMenu
 cls
 echo Mimdinareobs titis anabechdis drois shegudvis gauqmeba...
 schtasks /delete /tn "FOIPinEnforcementEnable" /f
+if errorlevel 1 (
+    echo [ERROR] Titis anabechdis drois shezgudvis gauqmebisas moxda shecdoma
+    pause
+    goto MainMenu
+)
+
 schtasks /delete /tn "FOIPinEnforcementDisable" /f
+if errorlevel 1 (
+    echo [ERROR] Titis anabechdis drois shezgudvis gauqmebisas moxda shecdoma
+    pause
+    goto MainMenu
+)
+
+echo [OK] Titis anabechdis drois shezgudva gauqmebulia.
 pause
 goto MainMenu
 
@@ -118,7 +169,11 @@ goto MainMenu
 echo Mimdinareobs GPO-s sawyis parametrebze dabruneba...
 rmdir /s /q "%SystemRoot%\System32\GroupPolicy" 2>nul
 gpupdate /force
-exit /b
+if errorlevel 1 (
+    echo [ERROR] GPO-s gadatvirtvisas moxda shecdoma
+    exit /b 1
+)
+exit /b 0
 
 :RestoreGPO
 cls
@@ -186,9 +241,28 @@ echo Mimdinareobs sarezervo aslis aghdgena: %selectedBackup%...
 
 :: Reset GPO and restore from backup
 call :ResetGPO
+if errorlevel 1 (
+    del "%tempFile%" 2>nul
+    pause
+    goto MainMenu
+)
+
 cd "%ScriptDir%\LGPO"
 .\LGPO.exe /g "%backupPath%"
+if errorlevel 1 (
+    echo [ERROR] Sarezervo aslis aghdgenisas moxda shecdoma
+    del "%tempFile%" 2>nul
+    pause
+    goto MainMenu
+)
+
 gpupdate /force
+if errorlevel 1 (
+    echo [ERROR] GPO-s ganakhlebisas moxda shecdoma
+    del "%tempFile%" 2>nul
+    pause
+    goto MainMenu
+)
 
 echo [OK] Sarezervo aslis aghdgena dasrulda
 del "%tempFile%" 2>nul
@@ -205,19 +279,41 @@ goto MainMenu
 cls
 set "calledFromInstall=1"
 call :SaveGPO
+if errorlevel 1 goto MainMenu
 set "calledFromInstall=0"
+
 echo Mimdinareobs FOI usafrtxoebis politikis dayeneba...
 call :ResetGPO
+if errorlevel 1 goto MainMenu
+
 echo Parametrebis kopireba: "%ScriptDir%\PolicyDefinitions" to "%SystemRoot%\PolicyDefinitions\"
 xcopy /S /Y "%ScriptDir%\PolicyDefinitions" "%SystemRoot%\PolicyDefinitions\"
+if errorlevel 1 (
+    echo [ERROR] Parametrebis kopirebisas moxda shecdoma
+    pause
+    goto MainMenu
+)
+
 cd "%ScriptDir%\LGPO"
 for /D %%D in ("%ScriptDir%\LGPO\policy\*") do (
     "%ScriptDir%\LGPO\LGPO.exe" /g "%%D"
+    if errorlevel 1 (
+        echo [ERROR] LGPO-s dayenebisas moxda shecdoma
+        pause
+        goto MainMenu
+    )
     goto InstallGPOComplete
 )
+
 :InstallGPOComplete
 echo Mimdinareobs FOI usafrtxoebis politikis dayeneba...
 gpupdate /force
+if errorlevel 1 (
+    echo [ERROR] GPO-s ganakhlebisas moxda shecdoma
+    pause
+    goto MainMenu
+)
+
 echo [OK] FOI usafrtxoebis politikis dayeneba dasrulda.
 pause
 goto MainMenu
@@ -231,11 +327,27 @@ for /f "delims=" %%I in ('powershell -Command "Get-Date -Format yyyyMMdd_HHmmss"
 set backupDir=%BackupBaseDir%\backup_%datetime%
 
 if not exist "%BackupBaseDir%\" mkdir "%BackupBaseDir%"
+if errorlevel 1 (
+    echo [ERROR] Sarezervo aslebis saqaghaldis sheqmnisas moxda shecdoma
+    pause
+    goto MainMenu
+)
+
 mkdir "%backupDir%"
+if errorlevel 1 (
+    echo [ERROR] Sarezervo aslis saqaghaldis sheqmnisas moxda shecdoma
+    pause
+    goto MainMenu
+)
 
 echo Iwyeba LGPO-is sarezervo aslis sheqmna...
 cd "%ScriptDir%\LGPO\"
 .\LGPO.exe /b "%backupDir%"
+if errorlevel 1 (
+    echo [ERROR] LGPO-s sarezervo aslis sheqmnisas moxda shecdoma
+    pause
+    goto MainMenu
+)
 echo Sarezervo aslis sheqmna dasrulda.
 
 echo Mimdinareobs sarezervo monacemebis damushaveba...
@@ -248,6 +360,11 @@ for /r "%BackupPath%" %%f in (*.pol) do (
     for %%d in ("%%~pf.") do set "DirName=%%~nxd"
     set "OutputFile=%backupDir%\!DirName!.txt"
     .\LGPO.exe /parse /m "%%f" > "!OutputFile!"
+    if errorlevel 1 (
+        echo [ERROR] Failis damushavebisas moxda shecdoma: %%~nxf
+        pause
+        goto MainMenu
+    )
     echo Damushavebuli monacemebi shenakhulia: !OutputFile!
 )
 
@@ -259,4 +376,4 @@ if "%calledFromInstall%"=="0" (
     pause
     goto MainMenu
 )
-exit /b
+exit /b %ERRORLEVEL%
