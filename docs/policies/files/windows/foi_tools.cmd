@@ -1,6 +1,7 @@
 @echo off
 setlocal EnableDelayedExpansion
 
+:: Define Escape character
 for /f "delims=" %%i in ('echo prompt $E ^| cmd') do set "ESC=%%i"
 title FOI Tools
 
@@ -35,7 +36,7 @@ echo.
 set /p choice="Sheiyvanet tqveni archevani: "
 
 :: Choice handling
-if "%choice%"=="8" goto :eof
+if "%choice%"=="8" goto :EOF
 if "%choice%"=="7" goto RestoreGPO
 if "%choice%"=="6" goto SaveGPO
 if "%choice%"=="5" goto DisableFingerprintTimeout
@@ -44,6 +45,10 @@ if "%choice%"=="3" goto EnforceFingerprintTimeout
 if "%choice%"=="2" goto EnforcePINLogin
 if "%choice%"=="1" goto InstallGPO
 
+:: If no valid choice was made, return to MainMenu
+echo [ERROR] Araswori archevani
+pause
+goto MainMenu
 
 :CheckTPM
 cls
@@ -146,7 +151,7 @@ goto MainMenu
 
 :DisableFingerprintTimeout
 cls
-echo Mimdinareobs titis anabechdis drois shegudvis gauqmeba...
+echo Mimdinareobs titis anabechdis drois shezgudvis gauqmeba...
 schtasks /delete /tn "FOIPinEnforcementEnable" /f
 if errorlevel 1 (
     echo [ERROR] Titis anabechdis drois shezgudvis gauqmebisas moxda shecdoma
@@ -228,7 +233,8 @@ echo.
 set /p choice="Airchiet sarezervo asli (1-%displayCount%): "
 
 :: Validate choice
-set /a "choiceNum=%choice%" 2>nul
+set "choiceNum=%choice%"
+set /a "choiceNum=%choiceNum%" 2>nul
 if "%choiceNum%"=="" goto InvalidChoice
 if %choiceNum% lss 1 goto InvalidChoice
 if %choiceNum% gtr %displayCount% goto InvalidChoice
@@ -324,7 +330,7 @@ echo Mimdinareobs sarezervo aslis sheqmna...
 
 :: Get the current date and time to create a unique backup directory
 for /f "delims=" %%I in ('powershell -Command "Get-Date -Format yyyyMMdd_HHmmss"') do set datetime=%%I
-set backupDir=%BackupBaseDir%\backup_%datetime%
+set "backupDir=%BackupBaseDir%\backup_%datetime%"
 
 if not exist "%BackupBaseDir%\" mkdir "%BackupBaseDir%"
 if errorlevel 1 (
