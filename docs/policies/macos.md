@@ -14,16 +14,17 @@ FOI Security Policy ავტომატურად გააქტიურ�
 - გადმოწერეთ და გახსენით ფაილი [foi_security_policy_macos.mobileconfig](files/apple/foi_security_policy_macos.mobileconfig)
 - იპოვეთ გადმოწერილი პროფილი:
 
-   /// tab | macOS 14
-   ![Apple Settings](../assets/img/icons/apple/settings.svg){ .twemoji } **System Settings** > 
-   ![Apple Privacy](../assets/img/icons/apple/privacy.svg){ .twemoji } **Privacy & Security** > **Profiles**.
-   
-   ///
    
    /// tab | macOS 15
    
    ![Apple Settings](../assets/img/icons/apple/settings.svg){ .twemoji } **System Settings** >
    ![Apple General](../assets/img/icons/apple/general.svg){ .twemoji } **General** > **Device Management**.
+   
+   ///
+
+   /// tab | macOS 14
+   ![Apple Settings](../assets/img/icons/apple/settings.svg){ .twemoji } **System Settings** > 
+   ![Apple Privacy](../assets/img/icons/apple/privacy.svg){ .twemoji } **Privacy & Security** > **Profiles**.
    
    ///
 
