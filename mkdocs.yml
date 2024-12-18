@@ -39,7 +39,7 @@ plugins:
 extra:
   generator: false
 extra_css:
-  - assets/stylesheets/extra.css?v=1724224182
+  - assets/stylesheets/extra.css?v=1734538186
 theme:
   name: material
   font:
