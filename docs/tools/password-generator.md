@@ -85,7 +85,7 @@ const osConfigs = {
     minWords: 4,
     maxWords: 4,
     numWordsDisabled: true,
-    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/ios/">iOS კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ ციფრის და გამოტოვებების (სფეისის) შეყვანა.<br>- კომფორტის შესანარჩუნებლად გამოიყენეთ Face ID. <br>- პაროლი შეინახეთ ფურცელზე და Bitwarden-ში. <br>- დამახსოვრების შემდეგ ფურცელი დაწვით.</p>'
+    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/ios/">iOS კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ მაღალი ასოს და გამოტოვებების (სფეისის) შეყვანა.<br>- კომფორტის შესანარჩუნებლად გამოიყენეთ Face ID. <br>- პაროლი შეინახეთ ფურცელზე და Bitwarden-ში. <br>- დამახსოვრების შემდეგ ფურცელი დაწვით.</p>'
   },
   'android': {
     passwordLength: 16,
@@ -96,7 +96,7 @@ const osConfigs = {
     minWords: 4,
     maxWords: 4,
     numWordsDisabled: true,
-    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/android/">Android კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ ციფრის და ყოველი სიტყვის პირველი ასოს დიდ რეგისტრში შეყვანა.<br>- კომფორტის შესანარჩუნებლად გამოიყენეთ თითის ანაბეჭდი. <br>- პაროლი შეინახეთ ფურცელზე და Bitwarden-ში.<br>- დამახსოვრების შემდეგ ფურცელი დაწვით.</p>'
+    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/android/">Android კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ მაღალი ასოს და ყოველი სიტყვის პირველი ასოს დიდ რეგისტრში შეყვანა.<br>- კომფორტის შესანარჩუნებლად გამოიყენეთ თითის ანაბეჭდი. <br>- პაროლი შეინახეთ ფურცელზე და Bitwarden-ში.<br>- დამახსოვრების შემდეგ ფურცელი დაწვით.</p>'
   },
   'macos-easy': {
     passwordLength: null,
@@ -107,7 +107,7 @@ const osConfigs = {
     minWords: 4,
     maxWords: 4,
     numWordsDisabled: true,
-    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/macos/">macOS კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ ციფრის და გამოტოვებების შეყვანა (წერტილი ან სფეისი).<br>- კომფორტის შესანარჩუნებლად გამოიყენეთ Touch ID. <br>- პაროლი შეინახეთ Bitwarden-ში.</p>'
+    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/macos/">macOS კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ მაღალი ასოს და გამოტოვებების შეყვანა (წერტილი ან სფეისი).<br>- კომფორტის შესანარჩუნებლად გამოიყენეთ Touch ID. <br>- პაროლი შეინახეთ Bitwarden-ში.</p>'
   },
   'macos-hard': {
     passwordLength: null,
@@ -129,7 +129,7 @@ const osConfigs = {
     minWords: 4,
     maxWords: 4,
     numWordsDisabled: true,
-    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/windows/">Windows კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ ციფრის და გამოტოვებების შეყვანა (წერტილი ან სფეისი).<br>- კომფორტის შესანარჩუნებლად გამოიყენეთ <a href="/solutions/windows/#ბიომეტრიული-აუთენტიფიკაცია">თითის ანაბეჭდი</a> <br>- პაროლი შეინახეთ Bitwarden-ში.</p>'
+    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/windows/">Windows კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ მაღალი ასოს და გამოტოვებების შეყვანა (წერტილი ან სფეისი).<br>- კომფორტის შესანარჩუნებლად გამოიყენეთ <a href="/solutions/windows/#ბიომეტრიული-აუთენტიფიკაცია">თითის ანაბეჭდი</a> <br>- პაროლი შეინახეთ Bitwarden-ში.</p>'
   },
   'windows-user-password': {
     passwordLength: null,
@@ -140,7 +140,7 @@ const osConfigs = {
     minWords: 8,
     maxWords: 8,
     numWordsDisabled: true,
-    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/windows/">Windows კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ ციფრის და გამოტოვებების შეყვანა (წერტილი).<br>- ამ პაროლის ხელით შეყვანა არასდროს მოგიწევთ. <br>- პაროლი შეინახეთ Bitwarden-ში.</p>'
+    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/windows/">Windows კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ მაღალი ასოს და გამოტოვებების შეყვანა (წერტილი).<br>- ამ პაროლის ხელით შეყვანა არასდროს მოგიწევთ. <br>- პაროლი შეინახეთ Bitwarden-ში.</p>'
   },
   'windows-bitlocker-os': {
     passwordLength: 20,
@@ -151,7 +151,7 @@ const osConfigs = {
     minWords: 4,
     maxWords: 4,
     numWordsDisabled: true,
-    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/windows/">Windows კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ ციფრის და გამოტოვებების (სფეისის) შეყვანა.<br>- პაროლი შეინახეთ Bitwarden-ში.</p>'
+    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/windows/">Windows კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ მაღალი ასოს და გამოტოვებების (სფეისის) შეყვანა.<br>- პაროლი შეინახეთ Bitwarden-ში.</p>'
   },
   'windows-bitlocker-fixed': {
     passwordLength: null,
