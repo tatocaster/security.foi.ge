@@ -200,7 +200,6 @@ fetch('../short_words.txt')
     wordsLoaded = true;
     computeWordLengths();
     document.getElementById('generate-button').disabled = false;
-    // Update OS selection based on URL parameter
     initializeOSSelection();
   })
   .catch(error => {
@@ -224,10 +223,6 @@ function getRandomInt(max) {
   return randomInt;
 }
 
-function getRandomDigit() {
-  return getRandomInt(10).toString();
-}
-
 function getQueryParams() {
   const params = {};
   window.location.search.substring(1).split('&').forEach(function(pair) {
@@ -239,7 +234,7 @@ function getQueryParams() {
 
 function initializeOSSelection() {
   const params = getQueryParams();
-  let os = 'generic'; // default OS
+  let os = 'generic'; 
   if (params.os && osConfigs.hasOwnProperty(params.os)) {
     os = params.os;
   }
@@ -317,7 +312,6 @@ function generatePassphrase() {
   const numWordsInput = document.getElementById('num-words');
   let numWords = parseInt(numWordsInput.value);
 
-  // Enforce min and max number of words
   if (numWords < config.minWords) {
     numWords = config.minWords;
     numWordsInput.value = config.minWords;
@@ -333,7 +327,7 @@ function generatePassphrase() {
   if (config.fixedLength) {
     passwordLength = config.passwordLength;
   } else if (isNaN(passwordLength) || passwordLengthInput.value === '') {
-    passwordLength = null; // No limit
+    passwordLength = null; 
   } else if (passwordLength < 1) {
     passwordLength = 1;
     passwordLengthInput.value = 1;
@@ -350,7 +344,7 @@ function generatePassphrase() {
     passwordLength: passwordLength,
     separator: separator,
     titleCase: separator == '',
-    includeDigit: numWords < 5,
+    capitalizeOne: numWords < 5
   };
 
   const passphrase = createPassphrase(options);
@@ -371,30 +365,26 @@ function generatePassphrase() {
   }
 }
 
-function createPassphrase({ numWords, passwordLength, separator, titleCase, includeDigit }) {
+function createPassphrase({ numWords, passwordLength, separator, titleCase, capitalizeOne }) {
   let passphrase = '';
   let passphrasePart = '';
-  const digit = includeDigit ? getRandomDigit() : '';
-  const digitLength = includeDigit ? 1 : 0;
 
   function formatWords(wordsArray) {
-    return wordsArray.map(word => {
-      if (titleCase) {
-        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-      } else {
-        return word;
-      }
-    }).join(separator !== null ? separator : '');
+    if (titleCase) {
+      wordsArray = wordsArray.map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase());
+    } else if (capitalizeOne) {
+      const randomIndex = getRandomInt(wordsArray.length);
+      wordsArray[randomIndex] = wordsArray[randomIndex].charAt(0).toUpperCase() + wordsArray[randomIndex].slice(1);
+    }
+    return wordsArray.join(separator !== null ? separator : '');
   }
 
   const separatorLength = separator !== null ? separator.length : 0;
   const minPossibleWordLength = numWords * minWordLength;
   const minPossibleSeparatorLength = separator !== null ? (numWords - 1) * separatorLength : 0;
-  const minPossibleLength = minPossibleWordLength + minPossibleSeparatorLength + digitLength;
+  const minPossibleLength = minPossibleWordLength + minPossibleSeparatorLength;
 
-  let maxPassphraseLength = passwordLength;
-
-  if (passwordLength !== null && minPossibleLength > maxPassphraseLength) {
+  if (passwordLength !== null && minPossibleLength > passwordLength) {
     return 'Error: Cannot generate passphrase with current settings. Try reducing the number of words or increasing the password length.';
   }
 
@@ -409,9 +399,6 @@ function createPassphrase({ numWords, passwordLength, separator, titleCase, incl
       selectedWords.push(words[getRandomInt(words.length)]);
     }
 
-    passphrasePart = formatWords(selectedWords);
-
-    // Enforce at least one word with 5+ characters for 4-word passphrases
     if (numWords === 4) {
       let hasLengthOver5 = false;
       for (let word of selectedWords) {
@@ -422,11 +409,11 @@ function createPassphrase({ numWords, passwordLength, separator, titleCase, incl
       }
     }
 
-    const totalLength = passphrasePart.length + digitLength;
+    passphrasePart = formatWords(selectedWords);
+    const totalLength = passphrasePart.length;
 
-    // Check length constraints if applicable
-    if (passwordLength === null || totalLength <= maxPassphraseLength) {
-      passphrase = digit + passphrasePart;
+    if (passwordLength === null || totalLength <= passwordLength) {
+      passphrase = passphrasePart;
       found = true;
     }
   }
@@ -441,7 +428,7 @@ function createPassphrase({ numWords, passwordLength, separator, titleCase, incl
 function stylePassphrase(passphrase) {
   const styledCharacters = passphrase.split('').map(char => {
     if (char === char.toUpperCase() && char.match(/[A-Z]/)) {
-      return `<span style="color: #8b8bb8; font-weight: bold;">${char}</span>`;
+      return `<span style="color: #ffd700; font-weight: bold;">${char}</span>`;
     } else if (char.match(/[0-9]/)) {
       return `<span style="color: #b8860b; font-weight: bold;">${char}</span>`;
     } else {
