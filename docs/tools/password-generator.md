@@ -77,6 +77,7 @@ let maxWordLength = -Infinity;
 // OS configurations
 const osConfigs = {
   'ios': {
+    type: 'passphrase',
     passwordLength: 20,
     separator: ' ',
     fixedLength: true,
@@ -132,13 +133,14 @@ const osConfigs = {
     additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/windows/">Windows კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ მაღალი ასოს და გამოტოვებების შეყვანა (წერტილი ან სფეისი).<br>- კომფორტის შესანარჩუნებლად გამოიყენეთ <a href="/solutions/windows/#ბიომეტრიული-აუთენტიფიკაცია">თითის ანაბეჭდი</a> <br>- პაროლი შეინახეთ Bitwarden-ში.</p>'
   },
   'windows-user-password': {
-    passwordLength: null,
-    separator: '.',
+    type: 'password',
+    passwordLength: 15,
+    separator: null,
     fixedLength: true,
     separatorDisabled: true,
     passwordLengthDisabled: true,
-    minWords: 8,
-    maxWords: 8,
+    minWords: 0,
+    maxWords: 0,
     numWordsDisabled: true,
     additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/windows/">Windows კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ მაღალი ასოს და გამოტოვებების შეყვანა (წერტილი).<br>- ამ პაროლის ხელით შეყვანა არასდროს მოგიწევთ. <br>- პაროლი შეინახეთ Bitwarden-ში.</p>'
   },
@@ -154,17 +156,19 @@ const osConfigs = {
     additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/windows/">Windows კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ მაღალი ასოს და გამოტოვებების (სფეისის) შეყვანა.<br>- პაროლი შეინახეთ Bitwarden-ში.</p>'
   },
   'windows-bitlocker-fixed': {
-    passwordLength: null,
-    separator: '.',
+    type: 'password',
+    passwordLength: 15,
+    separator: null,
     fixedLength: true,
     separatorDisabled: true,
     passwordLengthDisabled: true,
-    minWords: 7,
-    maxWords: 7,
+    minWords: 0,
+    maxWords: 0,
     numWordsDisabled: true,
-    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/windows/">Windows კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ გამოტოვებების (წერტილის) შეყვანა.<br>- პაროლი შეინახეთ Bitwarden-ში.</p>'
+    additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/windows/">Windows კონფიგურაციის გვერდს.</a><br>- ამ პაროლის ხელით შეყვანა არასდროს მოგიწევთ.<br>- პაროლი შეინახეთ Bitwarden-ში.</p>'
   },
   'bitwarden': {
+    type: 'passphrase',
     passwordLength: null,
     separator: ' ',
     fixedLength: false,
@@ -176,6 +180,7 @@ const osConfigs = {
     additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/passwords/">პაროლების მენეჯერის კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ გამოტოვებების შეყვანა (წერტილი ან სფეისი).<br>- პაროლი შეინახეთ ფურცელზე.<br>- დამახსოვრების შემდეგ ფურცელი დაწვით.</p>'
   },
   'generic': {
+    type: 'passphrase',
     passwordLength: null,
     separator: '.',
     fixedLength: false,
@@ -365,7 +370,23 @@ function generatePassphrase() {
   }
 }
 
+function generateRandomLetterPassword(length) {
+  const charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  let password = '';
+  for (let i = 0; i < length; i++) {
+    password += charset[getRandomInt(charset.length)];
+  }
+  return password;
+}
+
 function createPassphrase({ numWords, passwordLength, separator, titleCase, capitalizeOne }) {
+  const os = document.getElementById('os-selector').value;
+  const config = osConfigs[os];
+
+  if (config.type === 'password') {
+    return generateRandomLetterPassword(config.passwordLength);
+  }
+
   let passphrase = '';
   let passphrasePart = '';
 
