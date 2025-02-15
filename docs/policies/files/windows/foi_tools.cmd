@@ -23,13 +23,12 @@ echo     __________________________________________________
 echo.
 echo       [1] FOI Usafrtxoebis Politikis Dayeneba
 echo       [2] PIN Kodit Shesvlis Idzuleba
-echo       [3] Titis Anabechdis Drois Shezgudvis Gaaqtiureba
-echo       [4] BitLocker-is Martva
-echo       [5] [EXPERT] PIN Kodit Shesvlis Gauqmeba
-echo       [6] [EXPERT] Titis Anabechdis Drois Shezgudvis Gauqmeba
-echo       [7] [EXPERT] GPO-s Shenakhva
-echo       [8] [EXPERT] GPO-s Aghdgena
-echo       [9] Gamosvla
+echo       [3] BitLocker-is Martva
+echo       [4] [EXPERT] PIN Kodit Shesvlis Gauqmeba
+echo       [5] [EXPERT] Titis Anabechdis Drois Shezgudvis Gauqmeba
+echo       [6] [EXPERT] GPO-s Shenakhva
+echo       [7] [EXPERT] GPO-s Aghdgena
+echo       [8] Gamosvla
 echo     __________________________________________________
 echo.
 echo       Airchiet Operacia:
@@ -37,13 +36,12 @@ echo.
 set /p choice="Sheiyvanet tqveni archevani: "
 
 :: Choice handling
-if "%choice%"=="9" goto :EOF
-if "%choice%"=="8" goto RestoreGPO
-if "%choice%"=="7" goto SaveGPO
-if "%choice%"=="6" goto DisableFingerprintTimeout
-if "%choice%"=="5" goto DisablePINLogin
-if "%choice%"=="4" goto ManageBitLocker
-if "%choice%"=="3" goto EnforceFingerprintTimeout
+if "%choice%"=="8" goto :EOF
+if "%choice%"=="7" goto RestoreGPO
+if "%choice%"=="6" goto SaveGPO
+if "%choice%"=="5" goto DisableFingerprintTimeout
+if "%choice%"=="4" goto DisablePINLogin
+if "%choice%"=="3" goto ManageBitLocker
 if "%choice%"=="2" goto EnforcePINLogin
 if "%choice%"=="1" goto InstallGPO
 
@@ -135,27 +133,6 @@ echo [OK] PIN kodit shesvlis idzuleba gauqmebulia.
 pause
 goto MainMenu
 
-:EnforceFingerprintTimeout
-cls
-echo Mimdinareobs titis anabechdis drois shezgudvis idzuleba...
-schtasks /create /tn "FOIPinEnforcementEnable" /xml "%ScriptDir%\tasks\FOIPinEnforcementEnable.xml" /f
-if errorlevel 1 (
-    echo [ERROR] Titis anabechdis drois shezgudvis gaaqtiurebisas moxda shecdoma
-    pause
-    goto MainMenu
-)
-
-schtasks /create /tn "FOIPinEnforcementDisable" /xml "%ScriptDir%\tasks\FOIPinEnforcementDisable.xml" /f
-if errorlevel 1 (
-    echo [ERROR] Titis anabechdis drois shezgudvis gaaqtiurebisas moxda shecdoma
-    schtasks /delete /tn "FOIPinEnforcementEnable" /f >nul 2>&1
-    pause
-    goto MainMenu
-)
-
-echo [OK] Titis anabechdis drois shezgudva gaaqtiurebulia.
-pause
-goto MainMenu
 
 :DisableFingerprintTimeout
 cls
@@ -344,10 +321,33 @@ if errorlevel 1 (
 
 echo [OK] FOI usafrtxoebis politikis dayeneba dasrulda.
 
+echo [INFO] Mimdinareobs titis anabechdis drois shezgudvis konfiguracia...
+call :EnforceFingerprintTimeout
+
 call :ConfigureDNS
 
+:EnforceFingerprintTimeout
+echo [INFO] Mimdinareobs titis anabechdis drois shezgudvis idzuleba...
+schtasks /create /tn "FOIPinEnforcementEnable" /xml "%ScriptDir%\tasks\FOIPinEnforcementEnable.xml" /f
+if errorlevel 1 (
+    echo [ERROR] Titis anabechdis drois shezgudvis gaaqtiurebisas moxda shecdoma
+    pause
+) else (
+    echo [OK] Titis anabechdis drois shezgudva gaaqtiurebulia.
+)
+
+schtasks /create /tn "FOIPinEnforcementDisable" /xml "%ScriptDir%\tasks\FOIPinEnforcementDisable.xml" /f
+if errorlevel 1 (
+    echo [ERROR] Titis anabechdis drois shezgudvis gaaqtiurebisas moxda shecdoma
+    schtasks /delete /tn "FOIPinEnforcementEnable" /f >nul 2>&1
+    pause
+    goto MainMenu
+) else (
+    echo [OK] Titis anabechdis drois shezgudva gaaqtiurebulia.
+)
+
 :ConfigureDNS
-echo Mimdinareobs DNS-is konfiguracia...
+echo [INFO] Mimdinareobs DNS-is konfiguracia...
 :: Clean up existing DoH settings
 echo [INFO] Arsebuli DNS over HTTPS konfigurebis washla...
 powershell -ExecutionPolicy Bypass -Command "Remove-Item 'HKLM:System\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\*' -Recurse -ErrorAction SilentlyContinue; $template = 'https://cloudflare-dns.com/dns-query'; $oldIPs = (Get-DnsClientDohServerAddress | Where-Object { $_.DohTemplate -eq $template }).ServerAddress; if ($oldIPs) { $oldIPs | ForEach-Object { Remove-DnsClientDohServerAddress -ServerAddress $_ } }"
