@@ -3,7 +3,7 @@ title: "FOI პაროლების გენერატორი"
 hide:
   - navigation
 ---
-<link rel="stylesheet" href="../../assets/stylesheets/password-generator.css?v=2025-02-18">
+<link rel="stylesheet" href="../../assets/stylesheets/password-generator.css?v=2025-02-18-2">
 
 # პაროლების გენერატორი
 
@@ -12,22 +12,28 @@ hide:
 <div class="language-selection-container">
   <h3>აირჩიეთ პაროლის ენა</h3>
   <div class="language-selection">
-    <label class="language-option recommended">
+    <label class="language-option recommended" style="width: 100%; margin-bottom: 1rem;">
       <input type="radio" name="password-language" value="combined" checked>
       <span class="language-icon">🌐</span>
       <span>კომბინირებული</span>
       <span class="strength-indicator">💪</span>
     </label>
-    <label class="language-option">
-      <input type="radio" name="password-language" value="ka">
-      <span class="language-icon">🇬🇪</span>
-      <span>ქართული</span>
-    </label>
-    <label class="language-option">
-      <input type="radio" name="password-language" value="en">
-      <span class="language-icon">🇬🇧</span>
-      <span>ინგლისური</span>
-    </label>
+    <div class="grid">
+      <div class="grid-50">
+        <label class="language-option">
+          <input type="radio" name="password-language" value="ka">
+          <span class="language-icon">🇬🇪</span>
+          <span>ქართული</span>
+        </label>
+      </div>
+      <div class="grid-50">
+        <label class="language-option">
+          <input type="radio" name="password-language" value="en">
+          <span class="language-icon">🇬🇧</span>
+          <span>ინგლისური</span>
+        </label>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -150,4 +156,4 @@ hide:
 <div id="additional-note" style="margin: 20px 0;"></div>
 <div id="error-message" style="color: red;"></div>
 
-<script src="../../assets/javascripts/password-generator.js?v=2025-02-18"></script>
+<script src="../../assets/javascripts/password-generator.js?v=2025-02-18-2"></script>
