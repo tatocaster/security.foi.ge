@@ -3,7 +3,7 @@ title: "FOI პაროლების გენერატორი"
 hide:
   - navigation
 ---
-<link rel="stylesheet" href="../../assets/stylesheets/password-generator.css?v=2025-02-17">
+<link rel="stylesheet" href="../../assets/stylesheets/password-generator.css?v=2025-02-18">
 
 # პაროლების გენერატორი
 
@@ -150,4 +150,4 @@ hide:
 <div id="additional-note" style="margin: 20px 0;"></div>
 <div id="error-message" style="color: red;"></div>
 
-<script src="../../assets/javascripts/password-generator.js?v=2025-02-17"></script>
+<script src="../../assets/javascripts/password-generator.js?v=2025-02-18"></script>
