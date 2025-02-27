@@ -324,7 +324,8 @@ Bitwarden-მა დაიწყო ახალი მოწყობილო�
 
 ორბიჯიანი აუთენტიფიკაცია ზრდის უსაფრთხოებას, მაგრამ საჭიროა მეორე ბიჯის აღდგენის კოდის უსაფრთხოდ შენახვა. ეს კოდი საშუალებას მოგცემთ, რომ ანგარიშზე მეორე ბიჯის გამოყენების გარეშე, ყველა მოწყობილობის დაკარგვის შემთხვევაშიც კი შეხვიდეთ:
 
-1. შედით [https://vault.bitwarden.com/#/settings/security/two-step-login](https://vault.bitwarden.com/#/settings/security/two-step-login){:target="_blank"}
+1. შედით [https://vault.bitwarden.com/](https://vault.bitwarden.com/){:target="_blank"}
+2. გადადით **Settings > Security > Two-step login**
 2. დააჭირეთ **View Recovery Code**
 3. შეინახეთ ეს კოდი ისეთ ადგილას, სადაც ყოველთვის გექნებათ წვდომა, მაშინაც კი, თუ ყველა მოწყობილობას დაკარგავთ და ყველა პაროლი Bitwarden-ში გაქვთ შენახული
 
