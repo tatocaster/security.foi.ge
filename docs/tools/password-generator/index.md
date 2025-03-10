@@ -162,10 +162,10 @@ hide:
 // File integrity checksums (SHA-256)
 const INTEGRITY_CHECKSUMS = {
   'password-generator.js': '34532a1122cf35704e9f3044a53d3d07a6f3371beca1afc02ff1c3736d314964',
-  'foi_words_en.txt': 'b294dd133291abeb153593f4c44ea3583473d29dda0284699a1a9887967cff68',
-  'foi_words_ka.txt': '8a0eb56e7df296b9860d074608a692bda46928560283ab57821446c201e0066f',
-  'foi_syllables_en.txt': '98f25a9e8a0584b69d325214ce6d03c2f761278f0efdeb2f0cc146d6c3dbd601',
-  'foi_syllables_ka.txt': 'ac3413cd96dce202cb9126db5523346f2c23e78adf0b2c5e757f768915ec2fe6',
+  'foi_words_en.txt': '1f61505584784d45da74fd5d727b97841d2a1b3986bb35ef03f1a4b973cc6128',
+  'foi_words_ka.txt': 'e112da95175581823a24056a1de8ed93fd7f85611c275df360c6d2a8b99d8758',
+  'foi_syllables_en.txt': '8bb861d403ca161b6aeda31cd47006077af2b92ccab7a9c31688bbed925e54f5',
+  'foi_syllables_ka.txt': 'a9b9642d16a0e1f366d0ee5e4156f1497ca77ea6a4575c5a87922afe2c32d6b6',
 };
 
 // Compute SHA-256 hash of content
