@@ -101,7 +101,7 @@ hide:
         <span class="instruction-icon">✍️</span>
         <div class="instruction-content">
           <div class="instruction-title">Bitwarden-ის პაროლი</div>
-          <div class="instruction-text">დარჩენილი სიტყვები ჩაიწერეთ <span class="highlight-critical">ცალკე ფურცელზე</span>, შეინახეთ უსაფრთხო ადგილას დაზეპირებამდე. <span class="highlight-critical">არ ატაროთ თან!</span> </div>
+          <div class="instruction-text">დარჩენილი სიტყვები ჩაიწერეთ <span class="highlight-critical">ცალკე ფურცელზე</span>, შეინახეთ უსაფრთხო ადგილას დაზეპირებამდე. <span class="highlight-critical">არ ატაროთ თან! არ გადაუღოთ ფოტო!</span> </div>
         </div>
       </div>
       <div class="instruction-step">
