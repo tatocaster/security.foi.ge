@@ -117,7 +117,6 @@ aga
 agapi
 agapis
 agar
-agara
 agaraa
 agarc
 agaris
@@ -247,7 +246,6 @@ akoca
 akordi
 akords
 akr
-akra
 akras
 akravs
 akrefa
@@ -275,7 +273,6 @@ alans
 alanta
 alao
 alaos
-alaosa
 alaska
 albat
 albedo
@@ -303,7 +300,6 @@ ali
 alievi
 alim
 alis
-alisa
 alizi
 alizis
 alizit
@@ -331,7 +327,6 @@ alya
 alyam
 alyas
 alyis
-alyisa
 alyit
 ama
 amagam
@@ -348,7 +343,6 @@ amaoa
 amaod
 amara
 amas
-amasa
 amasac
 amashi
 amasve
@@ -387,7 +381,6 @@ amino
 amira
 amiras
 amis
-amisa
 amisda
 amisi
 amit
@@ -421,7 +414,6 @@ anam
 anapa
 anapis
 anas
-anasa
 anasac
 anaxa
 anbani
@@ -455,7 +447,6 @@ anri
 anric
 anrim
 anris
-anrisa
 anrize
 anteba
 antebs
@@ -516,7 +507,6 @@ aqtebs
 aqti
 aqtia
 aqtis
-aqtisa
 aqtit
 aqtiur
 aqtivi
@@ -555,7 +545,6 @@ arayi
 arayis
 arays
 arc
-arca
 arcaa
 arcert
 archia
@@ -626,7 +615,6 @@ arsic
 arsis
 arsit
 arss
-arssa
 arsta
 art
 arteli
@@ -644,7 +632,6 @@ arxebs
 arxi
 arxia
 arxis
-arxisa
 arxit
 arxma
 arxs
@@ -654,7 +641,6 @@ arxtan
 arxze
 aryi
 aryis
-aryisa
 asakad
 asaki
 asakia
@@ -663,7 +649,6 @@ asakis
 asakit
 asakma
 asaks
-asaksa
 asakze
 asamde
 asaxa
@@ -724,7 +709,6 @@ asoze
 astma
 astmis
 asul
-asula
 asuli
 asulia
 asulic
@@ -732,7 +716,6 @@ asulis
 asulma
 asulni
 asuls
-asulsa
 asulze
 asurel
 asve
@@ -851,10 +834,8 @@ auzi
 auzia
 auzic
 auzis
-auzisa
 auzit
 auzs
-auzsa
 auzshi
 auztan
 auzze
@@ -868,7 +849,6 @@ aveji
 avejis
 avejit
 avejs
-avejsa
 aveniu
 aversi
 avetik
@@ -941,7 +921,6 @@ axldes
 axlebi
 axli
 axlis
-axlisa
 axlit
 axlo
 axloa
@@ -976,13 +955,11 @@ azati
 azia
 aziara
 azias
-aziasa
 aziaze
 azidul
 aziel
 azieli
 aziis
-aziisa
 aziur
 aziuri
 aznaur
@@ -1001,7 +978,6 @@ azri
 azria
 azric
 azris
-azrisa
 azrit
 azrs
 azrsac
@@ -1027,7 +1003,6 @@ bafta
 baftas
 baftit
 bag
-baga
 bagad
 bagebi
 bagebs
@@ -1036,13 +1011,11 @@ bagia
 bagic
 bagiri
 bagis
-bagisa
 bagit
 bagma
 bagos
 bagrat
 bags
-bagsa
 bagshi
 bagtan
 bagze
@@ -1102,7 +1075,6 @@ baqo
 baqoel
 baqom
 baqos
-baqosa
 baraqa
 barati
 barats
@@ -1132,7 +1104,6 @@ basili
 basist
 baskur
 basr
-basra
 basrad
 basras
 basri
@@ -1181,7 +1152,6 @@ bedi
 bedic
 bedis
 beds
-bedsa
 bedsac
 bedze
 begara
@@ -1217,7 +1187,6 @@ beris
 berma
 bernis
 bers
-bersa
 beruli
 beta
 betas
@@ -1358,7 +1327,6 @@ bodzia
 bodzis
 bodzit
 bodzs
-bodzsa
 bodzze
 bogma
 bogota
@@ -1369,7 +1337,6 @@ bolids
 bolo
 boloa
 bolos
-bolosa
 boloti
 boloze
 bolqvi
@@ -1479,7 +1446,6 @@ burjia
 burjis
 burjit
 burjs
-burjsa
 burjze
 bursas
 burti
@@ -1513,7 +1479,6 @@ cacia
 caciaa
 cacxvi
 cad
-cada
 cageri
 cal
 calad
@@ -1533,7 +1498,6 @@ carcit
 carcul
 cariel
 cas
-casa
 cashi
 castan
 cata
@@ -1557,7 +1521,6 @@ cdida
 cdidan
 cdilob
 cdis
-cdisa
 cdit
 cecxli
 cecxls
@@ -1573,7 +1536,6 @@ celqi
 cema
 cemas
 cemis
-cemisa
 cemit
 cems
 centi
@@ -1669,7 +1631,6 @@ chemma
 chemni
 chemo
 chems
-chemsa
 chemta
 chemze
 cheqa
@@ -1678,7 +1639,6 @@ cheri
 cheris
 cherit
 chers
-chersa
 cherxo
 cherze
 chex
@@ -1716,7 +1676,6 @@ chiris
 chirit
 chirma
 chirs
-chirsa
 chis
 chiti
 chitis
@@ -1736,7 +1695,6 @@ choxa
 choxas
 choxis
 chqar
-chqara
 chqari
 chqefs
 chra
@@ -1804,13 +1762,11 @@ cirkis
 cirks
 cirozi
 cis
-cisa
 cisfer
 citata
 ciur
 ciuri
 civ
-civa
 civad
 civi
 civia
@@ -1824,11 +1780,9 @@ cixed
 cixem
 cixeni
 cixes
-cixesa
 cixeta
 cixeze
 cixis
-cixisa
 cixit
 ciyvi
 ciyvis
@@ -1880,13 +1834,11 @@ coli
 colia
 colic
 colis
-colisa
 colit
 colma
 colo
 coloba
 cols
-colsa
 colsac
 coltan
 colze
@@ -1944,7 +1896,6 @@ cvlaze
 cvlian
 cvlida
 cvlis
-cvlisa
 cvlit
 cxad
 cxadad
@@ -1954,7 +1905,6 @@ cxadyo
 cxare
 cxarea
 cxel
-cxela
 cxeli
 cxelia
 cxels
@@ -2007,13 +1957,11 @@ daawyo
 daaxl
 daba
 dabad
-dabada
 dabal
 dabali
 dabals
 dabana
 dabas
-dabasa
 dabebi
 dabebs
 dabis
@@ -2256,7 +2204,6 @@ davdo
 davebi
 davebs
 david
-davida
 davis
 davit
 daviti
@@ -2314,7 +2261,6 @@ debis
 debiti
 debo
 debs
-debsa
 debtan
 deda
 dedaa
@@ -2326,12 +2272,10 @@ dedam
 dedani
 dedao
 dedas
-dedasa
 dedata
 dedebi
 dedebs
 dedis
-dedisa
 dedlis
 dednis
 dedoba
@@ -2405,7 +2349,6 @@ dgemde
 dgeni
 dgeoba
 dges
-dgesa
 dgesaa
 dgesac
 dgeshi
@@ -2416,7 +2359,6 @@ dgian
 dgiani
 dgidan
 dgis
-dgisa
 dgisam
 dgisit
 dgit
@@ -2443,14 +2385,12 @@ didi
 didia
 didic
 didis
-didisa
 didita
 didma
 didni
 dido
 didos
 dids
-didsa
 didta
 didtan
 didze
@@ -2481,7 +2421,6 @@ dingze
 dinjad
 dinji
 dis
-disa
 disgan
 diskad
 diski
@@ -2527,7 +2466,6 @@ dolebi
 domeni
 domens
 don
-dona
 donald
 done
 donea
@@ -2535,14 +2473,11 @@ donec
 doned
 donem
 dones
-donesa
 doneta
 doneze
 doni
 donis
-donisa
 donit
-donita
 donori
 doping
 doqebi
@@ -2583,14 +2518,12 @@ droebi
 droebs
 droidi
 drois
-droisa
 droit
 droiti
 drom
 dromde
 droni
 dros
-drosa
 drosaa
 drosac
 drosha
@@ -2681,7 +2614,6 @@ dzeni
 dzenis
 dzeo
 dzes
-dzesa
 dzeta
 dzevs
 dzexvi
@@ -2700,10 +2632,8 @@ dziria
 dziris
 dzirit
 dzirs
-dzirsa
 dzirze
 dzis
-dzisa
 dziudo
 dzlebs
 dzleva
@@ -2719,7 +2649,6 @@ dzmao
 dzmari
 dzmars
 dzmas
-dzmasa
 dzmata
 dzmaze
 dzmeb
@@ -2727,7 +2656,6 @@ dzmebi
 dzmebo
 dzmebs
 dzmis
-dzmisa
 dzmoba
 dzmris
 dzmrit
@@ -2863,7 +2791,6 @@ elchma
 elchs
 elegia
 elen
-elena
 elenam
 elenas
 elene
@@ -2916,7 +2843,6 @@ enac
 enad
 enam
 enas
-enasa
 enasac
 enashi
 enata
@@ -2937,16 +2863,13 @@ enebia
 enebic
 enebis
 enebs
-enebsa
 enebze
 energo
 enguri
 engurs
 enidan
 enis
-enisa
 enit
-enita
 enitaa
 enovan
 enrike
@@ -3008,7 +2931,6 @@ erayi
 erayis
 erayma
 erays
-eraysa
 erayul
 erbos
 erchia
@@ -3016,7 +2938,6 @@ erchis
 erebi
 erebis
 erebs
-erebsa
 erekle
 ereoda
 eresad
@@ -3042,9 +2963,7 @@ erqva
 erqvas
 erqvat
 ers
-ersa
 ert
-erta
 ertad
 erteul
 ertgan
@@ -3054,16 +2973,13 @@ ertia
 ertian
 ertic
 ertis
-ertisa
 ertit
 ertjer
 ertma
 ertni
 erto
 ertob
-ertoba
 erts
-ertsa
 ertsac
 ertshi
 erttan
@@ -3154,14 +3070,12 @@ evroa
 evrod
 evropa
 evros
-evrosa
 evroti
 evroze
 ewada
 ewama
 eweoda
 ewer
-ewera
 ewerat
 eweri
 eweros
@@ -3205,7 +3119,6 @@ ezodan
 ezoebi
 ezoebs
 ezos
-ezosa
 ezoshi
 ezoti
 ezruna
@@ -3279,7 +3192,6 @@ fasia
 fasian
 fasic
 fasis
-fasisa
 fasit
 fasma
 fasobs
@@ -3333,15 +3245,12 @@ feria
 ferias
 feric
 feris
-ferisa
 ferit
-ferita
 ferma
 fermas
 fermer
 fermis
 fers
-fersa
 fersac
 fershi
 ferta
@@ -3362,7 +3271,6 @@ fexebs
 fexi
 fexia
 fexis
-fexisa
 fexit
 fexs
 fexshi
@@ -3376,7 +3284,6 @@ fichvi
 fichvs
 fici
 ficis
-ficisa
 ficit
 ficris
 ficrit
@@ -3394,7 +3301,6 @@ figura
 fiji
 fijis
 fil
-fila
 filaa
 filas
 filaze
@@ -3417,7 +3323,6 @@ filmis
 filmit
 filmma
 films
-filmsa
 filmta
 filmze
 filtri
@@ -3486,7 +3391,6 @@ flotis
 flotit
 flotma
 flots
-flotsa
 flotze
 fobia
 fobiis
@@ -3508,7 +3412,6 @@ fonds
 fonema
 foni
 fonis
-fonisa
 fonit
 fons
 fonshi
@@ -3545,7 +3448,6 @@ fostas
 fostis
 fostit
 fotis
-fotisa
 fotlis
 fotlit
 foto
@@ -3559,7 +3461,6 @@ fotos
 fototi
 fotoze
 fots
-fotsa
 fotshi
 fqvili
 fqvils
@@ -3608,7 +3509,6 @@ frtebi
 frtebs
 frtian
 frtis
-frtisa
 frtit
 frtxil
 fsevdo
@@ -3637,12 +3537,9 @@ fuli
 fulia
 fulic
 fulis
-fulisa
 fulit
-fulita
 fulma
 fuls
-fulsa
 fulsac
 fultan
 fulze
@@ -3768,7 +3665,6 @@ game
 gamea
 gamem
 games
-gamesa
 gameul
 gamge
 gamgea
@@ -3778,7 +3674,6 @@ gamgem
 gamges
 gamgis
 gamis
-gamisa
 gamit
 gamo
 gamoa
@@ -3820,7 +3715,6 @@ garebi
 gareka
 garemo
 garet
-gareta
 gareul
 gari
 garia
@@ -3844,7 +3738,6 @@ gasces
 gashla
 gaskda
 gasul
-gasula
 gasuli
 gasuls
 gasvla
@@ -3920,7 +3813,6 @@ gazeti
 gazets
 gazi
 gazis
-gazisa
 gazit
 gazma
 gazoma
@@ -3969,7 +3861,6 @@ gemit
 gemma
 gemo
 gemos
-gemosa
 gemosi
 gemoti
 gemoze
@@ -4008,7 +3899,6 @@ geric
 geris
 gero
 geros
-gerosa
 geroti
 geroze
 gesmis
@@ -4040,7 +3930,6 @@ gili
 gimili
 gimils
 gind
-ginda
 gindat
 giobi
 giobia
@@ -4132,7 +4021,6 @@ gogoa
 gogom
 gogona
 gogos
-gogosa
 gogoze
 gogra
 gogras
@@ -4145,7 +4033,6 @@ goli
 golic
 golis
 golit
-golita
 golta
 gomi
 gomis
@@ -4175,22 +4062,18 @@ gorgis
 gori
 gorila
 goris
-gorisa
 gorkis
 gors
-gorsa
 gorshi
 goruli
 gqonda
 gradus
 graf
-grafa
 grafad
 grafi
 grafis
 grafma
 grafs
-grafsa
 grafze
 grami
 gramia
@@ -4258,10 +4141,8 @@ guli
 gulic
 gulis
 gulit
-gulita
 gulqva
 guls
-gulsa
 gulshi
 guluxv
 gulze
@@ -4269,7 +4150,6 @@ gumeli
 gumis
 gumlis
 gund
-gunda
 gundad
 gundi
 gundia
@@ -4278,7 +4158,6 @@ gundis
 gundit
 gundma
 gunds
-gundsa
 gundur
 gundze
 guram
@@ -4313,7 +4192,6 @@ gvaris
 gvarit
 gvarma
 gvars
-gvarsa
 gvarta
 gvarze
 gvawli
@@ -4332,7 +4210,6 @@ gverdi
 gverds
 gvia
 gvian
-gviana
 gviani
 gvidzl
 gviis
@@ -4350,7 +4227,6 @@ gvjera
 gvra
 gvsurs
 gvtis
-gvtisa
 gvtiur
 gvyavs
 gza
@@ -4360,7 +4236,6 @@ gzad
 gzam
 gzamde
 gzas
-gzasa
 gzasac
 gzashi
 gzata
@@ -4373,11 +4248,9 @@ gzebis
 gzebit
 gzebma
 gzebs
-gzebsa
 gzebze
 gzidan
 gzis
-gzisa
 gzit
 gzitaa
 gzitac
@@ -4389,7 +4262,6 @@ haeria
 haeris
 haerit
 haers
-haersa
 haerze
 hageni
 haiti
@@ -4543,7 +4415,6 @@ icleba
 icnes
 icno
 icnob
-icnoba
 icnobs
 icoda
 icode
@@ -4570,7 +4441,6 @@ idebs
 ideebi
 ideebs
 ideis
-ideisa
 ideit
 ideur
 ideuri
@@ -4677,7 +4547,6 @@ imas
 imasac
 imashi
 imat
-imata
 imatac
 imav
 imave
@@ -4694,7 +4563,6 @@ imedic
 imedis
 imedit
 imeds
-imedsa
 imefa
 imerel
 imerta
@@ -4709,7 +4577,6 @@ imijit
 imijs
 imijze
 imis
-imisa
 imisas
 imisda
 imisi
@@ -4787,7 +4654,6 @@ iqcnen
 iqet
 iqidan
 iqit
-iqita
 iqitac
 iqmna
 iqmnis
@@ -4810,7 +4676,6 @@ irani
 iranis
 iranma
 irans
-iransa
 iranul
 iranze
 irchia
@@ -4935,7 +4800,6 @@ ivliss
 ivnisi
 ivniss
 ivris
-ivrisa
 ivseba
 iwama
 iwerda
@@ -5033,16 +4897,13 @@ jamia
 jamis
 jamni
 jams
-jamsa
 jamshi
 jamta
 jamur
 jamuri
 jan
-jana
 janam
 janas
-janasa
 jang
 jangi
 jangis
@@ -5058,7 +4919,6 @@ janris
 janrit
 janrma
 janrs
-janrsa
 janrta
 janrul
 janrze
@@ -5075,7 +4935,6 @@ jarit
 jarma
 jarmac
 jars
-jarsa
 jarsac
 jarshi
 jartan
@@ -5085,7 +4944,6 @@ jayos
 jaz
 jazi
 jazis
-jazisa
 jazit
 jazs
 jazshi
@@ -5135,7 +4993,6 @@ jgufis
 jgufit
 jgufma
 jgufs
-jgufsa
 jgufta
 jgufur
 jgufze
@@ -5231,14 +5088,11 @@ jvaria
 jvaric
 jvarma
 jvars
-jvarsa
 jvarze
 jvrebi
 jvrebs
 jvris
-jvrisa
 jvrit
-jvrita
 jvrul
 jvruli
 kaba
@@ -5258,14 +5112,11 @@ kacian
 kacias
 kacic
 kacis
-kacisa
 kacit
-kacita
 kacma
 kacni
 kaco
 kacs
-kacsa
 kacta
 kactan
 kacuna
@@ -5286,7 +5137,6 @@ kairos
 kaizer
 kaji
 kajis
-kajisa
 kakabi
 kakali
 kakals
@@ -5322,7 +5172,6 @@ kanon
 kanoni
 kanons
 kans
-kansa
 kanshi
 kanzas
 kanze
@@ -5346,7 +5195,6 @@ karebi
 karebs
 karedi
 karg
-karga
 kargad
 kargi
 kargia
@@ -5361,9 +5209,7 @@ kari
 karia
 karic
 karis
-karisa
 karit
-karita
 karl
 karli
 karlic
@@ -5373,11 +5219,9 @@ karlo
 karlom
 karlos
 karls
-karlsa
 karma
 karni
 kars
-karsa
 karsac
 karshi
 karsti
@@ -5410,7 +5254,6 @@ kaxeti
 kaxets
 kaxni
 kaxt
-kaxta
 kaxur
 kaxuri
 kazak
@@ -5500,13 +5343,11 @@ kibis
 kibit
 kibo
 kibos
-kibosa
 kiboti
 kichos
 kide
 kidec
 kides
-kidesa
 kidev
 kideze
 kidia
@@ -5518,7 +5359,6 @@ kidv
 kievi
 kievis
 kievs
-kievsa
 kievze
 kilo
 kilos
@@ -5530,7 +5370,6 @@ kino
 kinoa
 kinom
 kinos
-kinosa
 kinoti
 kinoze
 kiolni
@@ -5571,7 +5410,6 @@ klasia
 klasic
 klasis
 klass
-klassa
 klasta
 klav
 klavda
@@ -5580,12 +5418,10 @@ klavs
 klde
 kldea
 kldes
-kldesa
 kldeta
 kldeze
 kldian
 kldis
-kldisa
 kldit
 kleba
 klebam
@@ -5608,7 +5444,6 @@ klubic
 klubis
 klubma
 klubs
-klubsa
 klubta
 klubur
 klubze
@@ -5777,7 +5612,6 @@ kruxad
 kuba
 kubam
 kubas
-kubasa
 kubaze
 kubel
 kubeli
@@ -5793,7 +5627,6 @@ kudi
 kudian
 kudic
 kudis
-kudisa
 kudit
 kuds
 kudshi
@@ -5925,7 +5758,6 @@ laosi
 laosis
 laosma
 laoss
-laossa
 laqa
 laqaa
 laqad
@@ -6038,12 +5870,10 @@ ligaa
 ligad
 ligam
 ligas
-ligasa
 ligaze
 ligebi
 ligebs
 ligis
-ligisa
 lila
 lilas
 lili
@@ -6065,7 +5895,6 @@ lindas
 linzis
 lirika
 lis
-lisa
 lisi
 lisis
 listan
@@ -6073,7 +5902,6 @@ lit
 litoni
 litons
 litr
-litra
 litri
 litris
 litrs
@@ -6149,7 +5977,6 @@ ltolva
 ludi
 ludia
 ludis
-ludisa
 ludit
 ludma
 luds
@@ -6163,7 +5990,6 @@ luiji
 luijis
 luim
 luis
-luisa
 luisac
 luiza
 luizac
@@ -6171,7 +5997,6 @@ luizam
 luizas
 luka
 lukas
-lukasa
 luki
 lula
 lulas
@@ -6180,7 +6005,6 @@ luqs
 luqsi
 luqsis
 lurj
-lurja
 lurjad
 lurji
 lurjia
@@ -6250,7 +6074,6 @@ maisi
 maisia
 maisis
 maiss
-maissa
 maja
 majaze
 majori
@@ -6286,7 +6109,6 @@ mamals
 mamam
 mamao
 mamas
-mamasa
 mamata
 mamebi
 mamebs
@@ -6296,7 +6118,6 @@ mamiam
 mamias
 mamida
 mamis
-mamisa
 mamlis
 mamr
 mamri
@@ -6352,7 +6173,6 @@ maris
 marita
 marjve
 mark
-marka
 markam
 markas
 markis
@@ -6365,7 +6185,6 @@ maroko
 marshi
 marsis
 mart
-marta
 martam
 martas
 marti
@@ -6380,7 +6199,6 @@ martom
 marton
 martos
 marts
-martsa
 martul
 martva
 martve
@@ -6393,7 +6211,6 @@ masaji
 masala
 masam
 masas
-masasa
 masata
 masaze
 masebi
@@ -6401,7 +6218,6 @@ masebs
 mash
 mashin
 masis
-masisa
 masit
 masiur
 masivi
@@ -6434,7 +6250,6 @@ matls
 matma
 matni
 mats
-matsa
 matshi
 matta
 mattan
@@ -6493,7 +6308,6 @@ mdelo
 mdeloa
 mdelos
 mdgar
-mdgara
 mdgari
 mdgom
 mdgomi
@@ -6518,7 +6332,6 @@ meated
 mebage
 mebaje
 mec
-meca
 mecn
 mecxre
 med
@@ -6553,11 +6366,9 @@ mefed
 mefem
 mefeni
 mefes
-mefesa
 mefeta
 mefeze
 mefis
-mefisa
 mefit
 mefoba
 mefobs
@@ -6666,7 +6477,6 @@ metrit
 metro
 metros
 metrs
-metrsa
 metrul
 metrze
 mets
@@ -6781,7 +6591,6 @@ minaze
 minda
 minebi
 minis
-minisa
 minori
 minski
 minus
@@ -6814,20 +6623,15 @@ misias
 misiis
 misiit
 misis
-misisa
 misit
-misita
 misive
 misken
 misma
 misni
 miss
-missa
 mist
-mista
 mister
 misul
-misula
 misuli
 misuls
 misuri
@@ -6869,7 +6673,6 @@ miwac
 miwad
 miwam
 miwas
-miwasa
 miwata
 miwav
 miwaze
@@ -6880,9 +6683,7 @@ miwers
 miwevs
 miwier
 miwis
-miwisa
 miwit
-miwita
 miwur
 miwuri
 mixaki
@@ -7012,7 +6813,6 @@ mokvda
 mokvde
 mokvla
 mol
-mola
 molare
 molas
 molebi
@@ -7080,7 +6880,6 @@ mosmit
 mospes
 mospo
 mosul
-mosula
 mosuli
 mosuls
 mosvla
@@ -7196,7 +6995,6 @@ mtad
 mtam
 mtamde
 mtas
-mtasa
 mtashi
 mtata
 mtavar
@@ -7209,7 +7007,6 @@ mtebis
 mtebit
 mtebma
 mtebs
-mtebsa
 mtebze
 mtel
 mteli
@@ -7230,7 +7027,6 @@ mtidan
 mtiel
 mtieli
 mtis
-mtisa
 mtit
 mtkice
 mtknar
@@ -7304,11 +7100,9 @@ musrs
 mususi
 muxa
 muxas
-muxasa
 muxaze
 muxebi
 muxis
-muxisa
 muxli
 muxlis
 muxlit
@@ -7363,7 +7157,6 @@ mxari
 mxaris
 mxarit
 mxars
-mxarsa
 mxarze
 mxdali
 mxebi
@@ -7403,7 +7196,6 @@ myofma
 myofni
 myofs
 myoft
-myofta
 myrali
 myudro
 mza
@@ -7424,7 +7216,6 @@ mzeras
 mzeris
 mzerit
 mzes
-mzesa
 mzeshi
 mzeze
 mzian
@@ -7432,7 +7223,6 @@ mziani
 mzid
 mzidi
 mzis
-mzisa
 mzisas
 mzit
 mzitvi
@@ -7544,7 +7334,6 @@ natali
 natani
 nateba
 natel
-natela
 nateli
 natels
 nates
@@ -7561,7 +7350,6 @@ natlit
 nato
 natom
 natos
-natosa
 natura
 natvra
 nauru
@@ -7587,7 +7375,6 @@ nawil
 nawili
 nawils
 nax
-naxa
 naxat
 naxati
 naxats
@@ -7638,9 +7425,7 @@ nebac
 nebas
 nebaze
 nebis
-nebisa
 nebit
-nebita
 nebiti
 nebsit
 nedl
@@ -7653,7 +7438,6 @@ neka
 nekni
 neknis
 nel
-nela
 neli
 nelia
 nelis
@@ -7696,7 +7480,6 @@ nichis
 nichit
 nichma
 nichs
-nichsa
 nicis
 nigabi
 nigabs
@@ -7725,14 +7508,12 @@ nindza
 nino
 ninom
 ninos
-ninosa
 niori
 niors
 niqozi
 niri
 nisani
 nish
-nisha
 nishaa
 nishad
 nishas
@@ -7877,7 +7658,6 @@ ojaxis
 ojaxit
 ojaxma
 ojaxs
-ojaxsa
 ojaxta
 ojaxur
 ojaxze
@@ -7900,11 +7680,9 @@ olqi
 olqia
 olqic
 olqis
-olqisa
 olqit
 olqma
 olqs
-olqsa
 olqshi
 olqtan
 olqze
@@ -7920,7 +7698,6 @@ omebis
 omebit
 omebma
 omebs
-omebsa
 omebze
 omega
 omegas
@@ -7929,14 +7706,12 @@ omia
 omic
 omidan
 omis
-omisa
 omisas
 omit
 omleti
 omma
 omobda
 oms
-omsa
 omshi
 omshic
 omskis
@@ -7965,7 +7740,6 @@ oqro
 oqroc
 oqrod
 oqros
-oqrosa
 oqrosi
 oqroti
 oqroze
@@ -8039,7 +7813,6 @@ osebis
 osebs
 osetis
 osets
-osetsa
 oshki
 oshkis
 osi
@@ -8071,7 +7844,6 @@ otaxia
 otaxis
 otaxit
 otaxs
-otaxsa
 otel
 oteli
 otelo
@@ -8124,7 +7896,6 @@ panos
 paolo
 paolos
 pap
-papa
 papad
 papam
 papebi
@@ -8134,12 +7905,10 @@ papia
 papic
 papida
 papis
-papisa
 papma
 papmac
 papoba
 paps
-papsa
 paptan
 papuas
 papze
@@ -8160,7 +7929,6 @@ parkis
 parkit
 parkma
 parks
-parksa
 parkze
 parmas
 parmis
@@ -8180,7 +7948,6 @@ pastit
 pasuxi
 pasuxs
 patar
-patara
 pativi
 pativs
 patosi
@@ -8209,7 +7976,6 @@ peri
 period
 peru
 perus
-perusa
 petre
 petrem
 petres
@@ -8259,7 +8025,6 @@ pirma
 pirni
 piroba
 pirs
-pirsa
 pirshi
 pirta
 pirtan
@@ -8309,7 +8074,6 @@ poetia
 poetis
 poetma
 poets
-poetsa
 poetta
 poetur
 poetze
@@ -8340,7 +8104,6 @@ portis
 porto
 portos
 ports
-portsa
 portus
 posti
 postic
@@ -8404,12 +8167,9 @@ puri
 puria
 puric
 puris
-purisa
 purit
-purita
 puroba
 purs
-pursa
 purshi
 purtan
 purze
@@ -8424,7 +8184,6 @@ qafit
 qajana
 qajta
 qal
-qala
 qalad
 qalaq
 qalaqi
@@ -8439,12 +8198,10 @@ qalia
 qalian
 qalic
 qalis
-qalisa
 qalit
 qalma
 qalo
 qals
-qalsa
 qalsac
 qalshi
 qalta
@@ -8495,7 +8252,6 @@ qatmis
 qatmit
 qavili
 qceul
-qceula
 qceuli
 qceva
 qcevac
@@ -8515,10 +8271,8 @@ qedebs
 qedi
 qedia
 qedis
-qedisa
 qedit
 qeds
-qedsa
 qedshi
 qedtan
 qedze
@@ -8531,12 +8285,10 @@ qerchi
 qercli
 qeri
 qeris
-qerisa
 qerqi
 qerqis
 qerqit
 qerqs
-qerqsa
 qerqze
 qers
 qila
@@ -8572,7 +8324,6 @@ qmaria
 qmaric
 qmarma
 qmars
-qmarsa
 qmarze
 qmna
 qmni
@@ -8584,7 +8335,6 @@ qmrad
 qmrebi
 qmrebs
 qmris
-qmrisa
 qna
 qnari
 qnaris
@@ -8602,7 +8352,6 @@ qoneba
 qoni
 qonia
 qonis
-qonisa
 qonit
 qons
 qoqosi
@@ -8641,7 +8390,6 @@ qselur
 qselze
 qslis
 qsnis
-qsnisa
 qsova
 qsovas
 qsoven
@@ -8666,7 +8414,6 @@ qudze
 qula
 qulaa
 qulas
-qulasa
 qulata
 qulaze
 qulebi
@@ -8685,7 +8432,6 @@ qurebi
 quris
 qurqi
 qurt
-qurta
 qurti
 qurtis
 qurtma
@@ -8712,7 +8458,6 @@ qvacaa
 qvad
 qvam
 qvas
-qvasa
 qvashi
 qvata
 qvaze
@@ -8725,7 +8470,6 @@ qvebic
 qvebis
 qvebit
 qvebs
-qvebsa
 qvebze
 qveda
 qvedas
@@ -8743,11 +8487,9 @@ qvian
 qviani
 qvidan
 qvis
-qvisa
 qvisaa
 qvisha
 qvit
-qvita
 qvitaa
 qvriv
 qvrivi
@@ -8759,7 +8501,6 @@ rachas
 rachis
 rachul
 rad
-rada
 radac
 radari
 radas
@@ -8773,7 +8514,6 @@ rafaze
 rafebi
 raga
 ragac
-ragaca
 ragas
 ragbis
 raime
@@ -8819,7 +8559,6 @@ raobis
 raoden
 raqiti
 ras
-rasa
 rasaa
 rasac
 rasas
@@ -8847,7 +8586,6 @@ razmis
 razmit
 razmma
 razms
-razmsa
 razmze
 rbena
 rbeva
@@ -8870,10 +8608,8 @@ rdze
 rdzea
 rdzec
 rdzes
-rdzesa
 rdzeze
 rdzis
-rdzisa
 rdzit
 rdzlad
 rdzlis
@@ -8964,7 +8700,6 @@ rigebs
 rigi
 rigia
 rigis
-rigisa
 rigit
 rigiti
 rigs
@@ -8996,7 +8731,6 @@ ritmul
 ritmze
 riyeze
 riyis
-riyisa
 rizes
 rjuli
 rjulis
@@ -9051,7 +8785,6 @@ rolit
 rolma
 rolo
 rols
-rolsa
 rolsac
 rolshi
 rolur
@@ -9076,11 +8809,9 @@ romeo
 romi
 romic
 romis
-romisa
 romlis
 romma
 roms
-romsa
 romsac
 romshi
 romtan
@@ -9106,7 +8837,6 @@ rqebs
 rqebze
 rqiani
 rqis
-rqisa
 rqit
 rqosan
 rtavda
@@ -9145,7 +8875,6 @@ rukis
 rukit
 runuli
 rus
-rusa
 rusebi
 rusebs
 ruseti
@@ -9191,7 +8920,6 @@ saatia
 saatis
 saatit
 saats
-saatsa
 saatze
 saba
 sababi
@@ -9245,7 +8973,6 @@ safris
 safrit
 safule
 sag
-saga
 sagad
 sagamo
 sagani
@@ -9453,15 +9180,12 @@ saxelo
 saxels
 saxem
 saxes
-saxesa
 saxeta
 saxeze
 saxian
 saxide
 saxis
-saxisa
 saxit
-saxita
 saxlad
 saxli
 saxlia
@@ -9469,7 +9193,6 @@ saxlic
 saxlis
 saxlma
 saxls
-saxlsa
 saxlta
 saxlze
 saxmo
@@ -9501,7 +9224,6 @@ scemen
 scemes
 scems
 scen
-scena
 scenaa
 scenad
 scenam
@@ -9654,7 +9376,6 @@ shenda
 sheni
 shenni
 shens
-shensa
 shenta
 sherto
 shesha
@@ -9670,12 +9391,10 @@ shidsi
 shifri
 shifrs
 shig
-shiga
 shiit
 shiiti
 shila
 shin
-shina
 shishi
 shishs
 shiva
@@ -9703,7 +9422,6 @@ shou
 shoua
 shoum
 shous
-shousa
 shouti
 shouze
 shovna
@@ -10022,7 +9740,6 @@ sqesi
 sqesic
 sqesis
 sqess
-sqessa
 sqesta
 sqesze
 sqlad
@@ -10078,7 +9795,6 @@ stilis
 stilit
 stilma
 stils
-stilsa
 stilta
 stilze
 stiqia
@@ -10108,7 +9824,6 @@ suftaa
 suftad
 sukres
 sul
-sula
 sulac
 sulam
 sulas
@@ -10122,11 +9837,9 @@ sulic
 sulier
 sulis
 sulit
-sulita
 sulo
 sulori
 suls
-sulsa
 sulsac
 sulta
 sultan
@@ -10137,7 +9850,6 @@ sunels
 suni
 sunis
 sunit
-sunita
 suniti
 supebi
 supebs
@@ -10186,12 +9898,10 @@ svetis
 svetit
 svetma
 svets
-svetsa
 svetze
 svia
 svias
 sviis
-sviisa
 svimon
 sviris
 svla
@@ -10271,11 +9981,8 @@ tagi
 tagia
 tagic
 tagis
-tagisa
 tagit
-tagita
 tags
-tagsa
 tagsac
 tagshi
 tagtan
@@ -10320,9 +10027,7 @@ tango
 tangos
 tani
 tanis
-tanisa
 tanit
-tanita
 tanjva
 tank
 tanki
@@ -10374,7 +10079,6 @@ taris
 taro
 taroa
 taros
-tarosa
 taroti
 taroze
 tartus
@@ -10385,7 +10089,6 @@ tasi
 tasia
 tasic
 tasis
-tasisa
 tasit
 tasma
 tasmis
@@ -10416,16 +10119,13 @@ tavia
 tavian
 tavic
 tavis
-tavisa
 tavisi
 taviss
 tavit
-tavita
 tavla
 tavlis
 tavma
 tavs
-tavsa
 tavsac
 tavshi
 tavta
@@ -10440,7 +10140,6 @@ taxtia
 taxtic
 taxtis
 taxts
-taxtsa
 taxtze
 taxze
 tba
@@ -10450,7 +10149,6 @@ tbad
 tbam
 tbamde
 tbas
-tbasa
 tbashi
 tbata
 tbaze
@@ -10461,13 +10159,11 @@ tbebic
 tbebis
 tbebit
 tbebs
-tbebsa
 tbebze
 tbeti
 tbetis
 tbidan
 tbil
-tbila
 tbilad
 tbili
 tbilia
@@ -10475,7 +10171,6 @@ tbilis
 tbilma
 tbils
 tbis
-tbisa
 tbit
 tbori
 tboris
@@ -10516,7 +10211,6 @@ tempma
 temps
 temqis
 tems
-temsa
 temshi
 temta
 temur
@@ -10553,7 +10247,6 @@ teslia
 teslis
 teslit
 tesls
-teslsa
 test
 testi
 testis
@@ -10564,7 +10257,6 @@ testze
 tesva
 tesvis
 tetr
-tetra
 tetrad
 tetri
 tetria
@@ -10572,7 +10264,6 @@ tetris
 tetrit
 tetrma
 tetrs
-tetrsa
 tevadi
 tevz
 tevzi
@@ -10581,7 +10272,6 @@ tevzis
 tevzit
 tevzma
 tevzs
-tevzsa
 tevzta
 texasi
 texili
@@ -10601,7 +10291,6 @@ tigvis
 tikans
 tilo
 tilos
-tilosa
 tiloti
 tiloze
 timori
@@ -10612,15 +10301,12 @@ tipebs
 tipi
 tipia
 tipis
-tipisa
 tips
-tipsa
 tipur
 tipuri
 tiraji
 tirajs
 tiran
-tirana
 tirani
 tire
 tireti
@@ -10631,7 +10317,6 @@ tirils
 tiroda
 tiroli
 tit
-tita
 titan
 titani
 titans
@@ -10661,7 +10346,6 @@ tixebi
 tixebs
 tixian
 tixis
-tixisa
 tixit
 tixnar
 tixrit
@@ -10685,9 +10369,7 @@ tmebs
 tmian
 tmiani
 tmis
-tmisa
 tmit
-tmita
 tmobda
 tmoben
 tmobs
@@ -10699,7 +10381,6 @@ tofebs
 tofi
 tofis
 tofit
-tofita
 tofs
 tojina
 tokata
@@ -10713,7 +10394,6 @@ tokit
 toks
 tokze
 tol
-tola
 tolad
 tolcha
 toli
@@ -10737,7 +10417,6 @@ tomic
 tomis
 tomma
 toms
-tomsa
 tomsac
 tomshi
 tomski
@@ -10792,7 +10471,6 @@ tqmac
 tqmas
 tqmebi
 tqmis
-tqmisa
 tqmit
 tqmuli
 tqva
@@ -10841,7 +10519,6 @@ tufis
 tufit
 tuji
 tujis
-tujisa
 tujshi
 tuki
 tuluza
@@ -10901,7 +10578,6 @@ tveebs
 tvemde
 tveni
 tves
-tvesa
 tveshi
 tveta
 tveze
@@ -10913,12 +10589,10 @@ tvini
 tvinis
 tvinit
 tvins
-tvinsa
 tvinze
 tvirti
 tvirts
 tvis
-tvisa
 tvisas
 tvisi
 tvissa
@@ -10969,7 +10643,6 @@ tyavi
 tyavis
 tyavit
 tyavs
-tyavsa
 tyavze
 tydeba
 tye
@@ -10977,16 +10650,13 @@ tyea
 tyeebi
 tyeebs
 tyes
-tyesa
 tyeshi
 tyeta
 tyian
 tyiani
 tyidan
 tyis
-tyisa
 tyit
-tyita
 tyitaa
 tyuili
 tyuils
@@ -11041,7 +10711,6 @@ ubeshi
 ubeze
 ubidan
 ubis
-ubisa
 ubisis
 ubiwo
 ubiwod
@@ -11051,7 +10720,6 @@ ubnad
 ubnebi
 ubnebs
 ubnis
-ubnisa
 ubodza
 ubralo
 ucbad
@@ -11123,7 +10791,6 @@ ufali
 ufalma
 ufalo
 ufals
-ufalsa
 ufaso
 ufasoa
 ufasod
@@ -11176,7 +10843,6 @@ ujraze
 ujredi
 ujreds
 ukan
-ukana
 ukanaa
 ukanac
 ukanve
@@ -11227,7 +10893,6 @@ unaris
 unarit
 unarma
 unars
-unarsa
 unarze
 uncia
 unda
@@ -11423,7 +11088,6 @@ vagebt
 vagoni
 vagons
 vaj
-vaja
 vajad
 vajam
 vajas
@@ -11433,11 +11097,9 @@ vaji
 vajia
 vajic
 vajis
-vajisa
 vajit
 vajma
 vajs
-vajsa
 vajsac
 vajta
 vajtan
@@ -11445,11 +11107,9 @@ vajze
 vake
 vakea
 vakes
-vakesa
 vaketa
 vakeze
 vakis
-vakisa
 valdo
 valebi
 valebs
@@ -11522,14 +11182,12 @@ velia
 velis
 velo
 vels
-velsa
 velshi
 velur
 veluri
 velze
 vena
 venas
-venasa
 venaxi
 venaxs
 venebi
@@ -11729,7 +11387,6 @@ wardga
 warsul
 washla
 wasul
-wasula
 wasuli
 wasvla
 waswia
@@ -11747,29 +11404,23 @@ waweva
 webo
 webos
 wel
-wela
 weli
 welia
 welic
 welis
-welisa
 welit
 welma
 wels
-welsa
 welsaa
 welsac
 welshi
 welsve
 welt
-welta
 weltan
 welze
 wer
-wera
 werac
 weras
-werasa
 weraze
 werda
 weren
@@ -11777,7 +11428,6 @@ weria
 werili
 werils
 weris
-werisa
 werit
 weriti
 wero
@@ -11794,18 +11444,14 @@ wesia
 wesic
 wesier
 wesis
-wesisa
 wesit
-wesita
 wesma
 wess
-wessa
 wesshi
 westa
 westan
 wesze
 wev
-weva
 wevas
 wevaze
 weven
@@ -11819,7 +11465,6 @@ wevris
 wevrit
 wevrma
 wevrs
-wevrsa
 wevrta
 wevrze
 wevs
@@ -11842,7 +11487,6 @@ wignis
 wignit
 wignma
 wigns
-wignsa
 wignta
 wignze
 wil
@@ -11860,7 +11504,6 @@ wils
 wilshi
 wilze
 win
-wina
 winaa
 winac
 winad
@@ -11894,20 +11537,17 @@ wlebis
 wlebit
 wlebma
 wlebs
-wlebsa
 wlebze
 wles
 wlian
 wliani
 wlidan
 wlis
-wlisa
 wlisaa
 wlisac
 wlisam
 wlisas
 wlit
-wlita
 wlitaa
 wliur
 wliuri
@@ -11939,7 +11579,6 @@ wonac
 wonas
 wonaze
 wonis
-wonisa
 wonit
 woniti
 woven
@@ -11956,7 +11595,6 @@ wreebs
 wrem
 wremde
 wres
-wresa
 wreshi
 wreze
 wrfe
@@ -11968,7 +11606,6 @@ wrfiv
 wrfivi
 wridan
 wris
-wrisa
 writ
 wriul
 wriuli
@@ -11979,10 +11616,8 @@ wuti
 wutia
 wutian
 wutis
-wutisa
 wutit
 wuts
-wutsa
 wutshi
 wutze
 wuwnis
@@ -12023,7 +11658,6 @@ wvimis
 wvimit
 wvims
 wvis
-wvisa
 wvisas
 wvit
 wvivis
@@ -12040,7 +11674,6 @@ wyalia
 wyalic
 wyalma
 wyals
-wyalsa
 wyalta
 wyalze
 wyaro
@@ -12066,9 +11699,7 @@ wylebi
 wylebs
 wylian
 wylis
-wylisa
 wylit
-wylita
 wyluli
 wynar
 wynari
@@ -12101,25 +11732,21 @@ xalxma
 xalxno
 xalxo
 xalxs
-xalxsa
 xalxta
 xalxur
 xalxze
 xamis
 xan
-xana
 xanaa
 xanac
 xanad
 xanas
-xanasa
 xanaze
 xanebi
 xanebs
 xani
 xania
 xanis
-xanisa
 xanit
 xanma
 xans
@@ -12137,7 +11764,6 @@ xarebi
 xarebs
 xari
 xaris
-xarisa
 xarji
 xarjia
 xarjis
@@ -12165,7 +11791,6 @@ xatebs
 xati
 xatic
 xatis
-xatisa
 xatit
 xatma
 xatoba
@@ -12198,12 +11823,9 @@ xazia
 xazic
 xazina
 xazis
-xazisa
 xazit
-xazita
 xazma
 xazs
-xazsa
 xazshi
 xazta
 xaztan
@@ -12242,27 +11864,21 @@ xeebic
 xeebis
 xeebit
 xeebs
-xeebsa
 xeebze
 xel
 xelad
-xelada
 xelaia
 xelebi
 xelebs
 xeli
 xelic
 xelis
-xelisa
 xelit
-xelita
 xelma
 xeloba
 xels
-xelsa
 xelshi
 xelt
-xelta
 xeltaa
 xelze
 xemian
@@ -12282,7 +11898,6 @@ xerxma
 xerxs
 xerxva
 xes
-xesa
 xestan
 xetebi
 xetebs
@@ -12292,10 +11907,8 @@ xevebi
 xevebs
 xevi
 xevis
-xevisa
 xevit
 xevs
-xevsa
 xevshi
 xevtan
 xevze
@@ -12310,11 +11923,9 @@ xidi
 xidia
 xidic
 xidis
-xidisa
 xidit
 xidma
 xids
-xidsa
 xidsac
 xidtan
 xidze
@@ -12323,11 +11934,8 @@ xifats
 xili
 xilia
 xilis
-xilisa
 xilit
-xilita
 xils
-xilsa
 xiltan
 xilul
 xiluli
@@ -12339,7 +11947,6 @@ xilvas
 xilvis
 xilvit
 xis
-xisa
 xisaa
 xisebr
 xisgan
@@ -12360,7 +11967,6 @@ xmals
 xmalze
 xmam
 xmas
-xmasa
 xmasac
 xmashi
 xmata
@@ -12379,15 +11985,11 @@ xmeli
 xmiani
 xmidan
 xmis
-xmisa
 xmit
-xmita
 xmlebi
 xmlebs
 xmlis
-xmlisa
 xmlit
-xmlita
 xmovan
 xniani
 xnidan
@@ -12418,7 +12020,6 @@ xorcia
 xorcis
 xorcit
 xorcs
-xorcsa
 xorcze
 xorumi
 xorvat
@@ -12530,7 +12131,6 @@ yavari
 yavas
 yavaze
 yavis
-yavisa
 yavit
 yavrit
 yazax
@@ -12561,10 +12161,8 @@ yefs
 yeli
 yelia
 yelis
-yelisa
 yelit
 yels
-yelsa
 yelshi
 yeltan
 yelze
@@ -12596,26 +12194,20 @@ ymebis
 ymebit
 ymebs
 ymis
-ymisa
 ymoba
 ymuili
 ynosva
 yochis
 yof
-yofa
 yofam
 yofas
-yofasa
 yofaze
 yofda
 yofen
 yofil
-yofila
 yofili
 yofis
-yofisa
 yofit
-yofita
 yofiti
 yofna
 yofnac
@@ -12676,11 +12268,9 @@ yureba
 yurebi
 yurebs
 yures
-yuresa
 yureze
 yuri
 yuris
-yurisa
 yurit
 yurs
 yurshi
@@ -12697,7 +12287,6 @@ yvaoda
 yvavi
 yvavis
 yvel
-yvela
 yvelam
 yvelas
 yveli
@@ -12705,7 +12294,6 @@ yvelia
 yvelis
 yvelit
 yvels
-yvelsa
 yvelze
 yviris
 yvitel
@@ -12727,7 +12315,6 @@ zarzma
 zatiki
 zavi
 zavis
-zavisa
 zavit
 zavma
 zavs
@@ -12740,11 +12327,9 @@ zecad
 zecas
 zecata
 zecis
-zecisa
 zecit
 zeciur
 zed
-zeda
 zedas
 zedaze
 zedmet
@@ -12759,7 +12344,6 @@ zeimze
 zemo
 zemod
 zemot
-zemota
 zemoti
 zena
 zeniti
@@ -12776,10 +12360,8 @@ zetebs
 zeti
 zetia
 zetis
-zetisa
 zetit
 zets
-zetsa
 zetshi
 zettan
 zetze
@@ -12803,13 +12385,11 @@ zgvam
 zgvari
 zgvars
 zgvas
-zgvasa
 zgvata
 zgvaze
 zgvebi
 zgvebs
 zgvis
-zgvisa
 zgvit
 zgviur
 zgvrad
@@ -12833,7 +12413,6 @@ zmnas
 zmnebi
 zmnebs
 zmnis
-zmnisa
 zmnuri
 zne
 zneoba
@@ -12864,7 +12443,6 @@ zolis
 zolit
 zolo
 zols
-zolsa
 zolshi
 zolze
 zoma
@@ -12873,7 +12451,6 @@ zomac
 zomad
 zomam
 zomas
-zomasa
 zomavs
 zomaze
 zombi
@@ -12882,9 +12459,7 @@ zomebi
 zomebs
 zomier
 zomis
-zomisa
 zomit
-zomita
 zona
 zonaa
 zonac
@@ -12892,7 +12467,6 @@ zonad
 zonam
 zonari
 zonas
-zonasa
 zonaze
 zond
 zondi
@@ -12901,7 +12475,6 @@ zondma
 zonebi
 zonebs
 zonis
-zonisa
 zonit
 zonuri
 zorba
@@ -12912,14 +12485,11 @@ zrdad
 zrdadi
 zrdam
 zrdas
-zrdasa
 zrdaze
 zrdian
 zrdida
 zrdis
-zrdisa
 zrdit
-zrdita
 zrunva
 zulus
 zurab
@@ -12929,7 +12499,6 @@ zurgi
 zurgis
 zurgit
 zurgs
-zurgsa
 zurgze
 zurna
 zust
