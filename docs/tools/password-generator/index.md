@@ -163,7 +163,7 @@ hide:
 const INTEGRITY_CHECKSUMS = {
   'password-generator.js': '34532a1122cf35704e9f3044a53d3d07a6f3371beca1afc02ff1c3736d314964',
   'foi_words_en.txt': '1f61505584784d45da74fd5d727b97841d2a1b3986bb35ef03f1a4b973cc6128',
-  'foi_words_ka.txt': 'e112da95175581823a24056a1de8ed93fd7f85611c275df360c6d2a8b99d8758',
+  'foi_words_ka.txt': 'f86c14cd4a41cc5f1a0450465345e8578790c4e59560803cbec2f8d2f37c9bc0',
   'foi_syllables_en.txt': '8bb861d403ca161b6aeda31cd47006077af2b92ccab7a9c31688bbed925e54f5',
   'foi_syllables_ka.txt': 'a9b9642d16a0e1f366d0ee5e4156f1497ca77ea6a4575c5a87922afe2c32d6b6',
 };
