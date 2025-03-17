@@ -98,8 +98,8 @@ function updateWordList(language) {
       syllables = syllablesKa;
       break;
     case 'combined':
-      words = [...wordsEn, ...wordsKa];
-      syllables = [...syllablesEn, ...syllablesKa];
+      words = [...new Set([...wordsEn, ...wordsKa])];
+      syllables = [...new Set([...syllablesEn, ...syllablesKa])];
       break;
   }
   computeWordLengths();
