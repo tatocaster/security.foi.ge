@@ -4,7 +4,7 @@ icon: material/key
 hide:
   - navigation
 ---
-<link rel="stylesheet" href="../../assets/stylesheets/password-generator.css?v=2025-03-17">
+<link rel="stylesheet" href="../../assets/stylesheets/password-generator.css?v=2025-03-17-2">
 
 # FOI პაროლების გენერატორი
 
@@ -123,10 +123,13 @@ hide:
     <div class="password-item">
       <div class="password-label">Bitwarden-ის პაროლი:</div>
       <div id="bitwarden-password" class="password-value"></div>
+      <small>ეს ყველაზე მნიშვნელოვანი პაროლია და მას Bitwarden-ის დასაცავად გამოიყენებთ. იქამდე, სანამ გახსოვთ ეს პაროლი და ყველა დანარჩენი Bitwarden-ში გაქვთ შენახული, არცერთი პაროლი აღარ "დაგავიწყდებათ".</small>
+      <small><br/>Bitwarden-ის პაროლის აღდგენა შეუძლებელია!</small>
     </div>
     <div class="password-item">
       <div class="password-label">მობილურის პაროლი:</div>
       <div id="mobile-password" class="password-value"></div>
+      <small>ეს პაროლი Cellebrite-სგან დაგიცავთ იმ შემთხვევაში, თუ მოწყობილობას გათიშავთ.<br/>Face ID ან თითის ანაბეჭდთან ერთად, ის იდეალურ დაცვას გთავაზობთ.</small>
     </div>
   </div>
 
@@ -161,7 +164,7 @@ hide:
 <script>
 // File integrity checksums (SHA-256)
 const INTEGRITY_CHECKSUMS = {
-  'password-generator.js': 'aaaaf26b99a09367c0ae4a117e59f315f4fb6ddccb240e071e8ea1ceaab3bb23',
+  'password-generator.js': '1e5360505d5b53575babfb9361a060e7989cc7a79341a7518cb9ce6a0bb093e7',
   'foi_words_en.txt': '08d5274313dd6a0afa05b95d39258af14ae8f0253a04ae4a54f05c0502be77da',
   'foi_words_ka.txt': '144431071c6719c1b80057cb4663f3495241b67d01d0a14aee6246d6cb7d12a6',
   'foi_syllables_en.txt': '1d66cf7aef6228bce29ded75bbcf9b2a27f4765d47eb61f05e8640a233702036',
@@ -200,7 +203,7 @@ async function verifyIntegrity(filename, content) {
 // Load and verify password generator script
 (async function loadPasswordGenerator() {
   try {
-    const response = await fetch('../../assets/javascripts/password-generator.js?v=2025-03-17');
+    const response = await fetch('../../assets/javascripts/password-generator.js?v=2025-03-17-2');
     if (!response.ok) throw new Error('Failed to load password generator');
     const content = await response.text();
     
