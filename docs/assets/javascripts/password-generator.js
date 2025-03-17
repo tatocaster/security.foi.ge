@@ -152,8 +152,12 @@ const osConfigs = {
       additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/windows/">Windows კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ მაღალი ასოს და გამოტოვებების შეყვანა.<br>- კომფორტის შესანარჩუნებლად გამოიყენეთ <a href="/solutions/windows/#ბიომეტრიული-აუთენტიფიკაცია">თითის ანაბეჭდი</a></p>'
     },
     user: {
-      type: 'password',
-      maxLength: 15,
+      type: 'passphrase',
+      numWords: 5,
+      separator: '',
+      maxLength: 19,
+      titleCase: true,
+      useSyllables: true,
       additionalHTML: '<p style="color: #b8860b;">- გაეცანით <a href="/solutions/windows/">Windows კონფიგურაციის გვერდს.</a><br>- არ დაგავიწყდეთ მაღალი ასოს და გამოტოვებების შეყვანა.<br>- ამ პაროლის ხელით შეყვანა არასდროს მოგიწევთ.</p>'
     },
     bitlocker: {
@@ -406,10 +410,12 @@ function generatePasswords() {
       <div class="password-item">
         <div class="password-label">macOS User:</div>
         <div class="password-value">${stylePassphrase(userPass)}</div>
+        <small>ამ პაროლს ეკრანის განბლოკვის და აპლიკაციების ინსტალაციისთვის გამოიყენებთ</small>
       </div>
       <div class="password-item">
-        <div class="password-label">macOS Admin/Unlock:</div>
+        <div class="password-label">macOS Unlock:</div>
         <div class="password-value">${stylePassphrase(adminPass)}</div>
+        <small>ამ პაროლის შეყვანა მხოლოდ მოწყობილობის გათიშვის შემდეგ მოგიწევთ. ის იცავს თქვენს ფაილებს - მისი აღდგენა შეუძლებელია</small>
       </div>
     `;
   } else {
@@ -421,14 +427,17 @@ function generatePasswords() {
       <div class="password-item">
         <div class="password-label">Windows BitLocker - შიფრაციის პაროლი:</div>
         <div class="password-value">${stylePassphrase(bitlockerPass)}</div>
+        <small>ამ პაროლის შეყვანა მხოლოდ მოწყობილობის გათიშვის შემდეგ მოგიწევთ. ის იცავს თქვენს ფაილებს - მისი აღდგენა შეუძლებელია</small>
       </div>
       <div class="password-item">
         <div class="password-label">Windows User PIN - მომხმარებლის მთავარი პაროლი:</div>
         <div class="password-value">${stylePassphrase(userPin)}</div>
+        <small>ამ პაროლს ეკრანის განბლოკვის და აპლიკაციების ინსტალაციისთვის გამოიყენებთ</small>
       </div>
       <div class="password-item">
         <div class="password-label">Windows User Password - მომხმარებლის სარეზერვო პაროლი:</div>
         <div class="password-value">${stylePassphrase(userPass)}</div>
+        <small>ეს სარეზერვო პაროლია - ის ერთჯერადად უნდა დააყენოთ და მისი გამოყენება მხოლოდ კომპიუტერის აღდგენითი სამუშაოების დროს მოგიწევთ</small>
       </div>
     `;
   }
